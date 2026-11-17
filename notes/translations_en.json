@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "title": "Journey to the Laugh (Super A'Can, 1995 Funtech)",
+    "dialogue_max_cols": 28,
+    "dialogue_max_lines": 3,
+    "base_x_stage": 2
+  },
+  "intro": {
+    "intro_0": {
+      "x": 4,
+      "y": 10,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "So Wukong and company",
+        "procured the scriptures",
+        "and returned to court..."
+      ],
+      "line_cmd": "NL4"
+    },
+    "intro_1": {
+      "x": 4,
+      "y": 16,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "Your Majesty, please",
+        "inspect the scriptures..."
+      ],
+      "line_cmd": "NL3"
+    },
+    "intro_2": {
+      "x": 3,
+      "y": 16,
+      "delay": 3,
+      "wait_end": false,
+      "lines": [
+        "Wukong! Leap 108,000 miles",
+        "back West and bring me the",
+        "real scriptures! Or else.."
+      ],
+      "line_cmd": "NL3"
+    },
+    "intro_3": {
+      "x": 6,
+      "y": 25,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "Revive Wukong?"
+      ],
+      "line_cmd": "NL2"
+    },
+    "intro_4": {
+      "x": 20,
+      "y": 25,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "YES"
+      ],
+      "line_cmd": "NL2"
+    },
+    "intro_5": {
+      "x": 24,
+      "y": 25,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "NO"
+      ],
+      "line_cmd": "NL2"
+    },
+    "intro_6": {
+      "x": 8,
+      "y": 25,
+      "delay": 0,
+      "wait_end": false,
+      "lines": [
+        "G A M E   O V E R"
+      ],
+      "line_cmd": "NL2"
+    }
+  },
+  "stage_shared_pw": [
+    "Your password, Great Sage:"
+  ],
+  "stage_scripts": {
+    "0x002FA0": {
+      "slots": [0],
+      "has_pw": false,
+      "pages": [
+        [
+          "Great Sage, this is the",
+          "Spider Demon's turf. Watch",
+          "out for minions on webs!"
+        ]
+      ]
+    },
+    "0x003004": {
+      "slots": [1],
+      "has_pw": true,
+      "pages": [
+        [
+          "Silk Cave lies ahead. Some",
+          "spiders are controlled by",
+          "those floating totems..."
+        ]
+      ]
+    },
+    "0x00309C": {
+      "slots": [2],
+      "has_pw": true,
+      "pages": [
+        [
+          "You'll soon meet the Boss's",
+          "guard, the Spider Demon!",
+          "Hit its face--nowhere else!"
+        ]
+      ]
+    },
+    "0x00317C": {
+      "slots": [3],
+      "has_pw": true,
+      "pages": []
+    },
+    "0x0031B0": {
+      "slots": [4],
+      "has_pw": false,
+      "pages": [
+        [
+          "The Giant Spider is right",
+          "ahead! Inside its web,",
+          "never stand in one spot!"
+        ]
+      ]
+    },
+    "0x00326C": {
+      "slots": [5],
+      "has_pw": true,
+      "pages": [
+        [
+          "Great Sage, these scorching",
+          "Flaming Mountains never see",
+          "rain! Step on cooled rocks!"
+        ]
+      ]
+    },
+    "0x003338": {
+      "slots": [6],
+      "has_pw": true,
+      "pages": [
+        [
+          "When walking on the sand,",
+          "don't stand still for long.",
+          "Keep moving and jumping!"
+        ]
+      ]
+    },
+    "0x0033D4": {
+      "slots": [7, 8],
+      "has_pw": true,
+      "pages": [
+        [
+          "Next is the volcano zone!",
+          "There's a huge monster",
+          "lurking in the magma!"
+        ]
+      ]
+    },
+    "0x0033D4_no_pw": {
+      "slots": [9],
+      "has_pw": false,
+      "pages": [
+        [
+          "Next is the volcano zone!",
+          "There's a huge monster",
+          "lurking in the magma!"
+        ]
+      ]
+    },
+    "0x00345C": {
+      "slots": [10],
+      "has_pw": false,
+      "pages": [
+        [
+          "Only the little bull in",
+          "back is Bull King's spirit!",
+          "Don't hit Rakshasi, or..."
+        ]
+      ]
+    },
+    "0x0034DC": {
+      "slots": [11, 12],
+      "has_pw": true,
+      "pages": [
+        [
+          "Brrr! It's freezing cold",
+          "out here in the snow & ice.",
+          "Careful, don't slip!!"
+        ]
+      ]
+    },
+    "0x003564": {
+      "slots": [13],
+      "has_pw": true,
+      "pages": [
+        [
+          "Great Sage, take it slow,",
+          "one step at a time. Never",
+          "charge blindly in a maze!"
+        ]
+      ]
+    },
+    "0x003608": {
+      "slots": [14],
+      "has_pw": true,
+      "pages": [
+        [
+          "Great Sage, there's a",
+          "twin-headed snow sled!",
+          "Put it to good use!"
+        ]
+      ]
+    },
+    "0x003684": {
+      "slots": [15],
+      "has_pw": true,
+      "pages": [
+        [
+          "Shrink down small and sneak",
+          "in through the kitchen!",
+          "Try smashing rice jars..."
+        ]
+      ]
+    },
+    "0x00372C": {
+      "slots": [16],
+      "has_pw": false,
+      "pages": [
+        [
+          "Gold & Silver Horn wield",
+          "that magic gourd. Whatever",
+          "you do, don't answer them!"
+        ]
+      ]
+    },
+    "0x003798": {
+      "slots": [17, 18],
+      "has_pw": true,
+      "pages": [
+        [
+          "This is Tongtian River--",
+          "deep beyond measure! Look",
+          "for a secret shore path..."
+        ]
+      ]
+    },
+    "0x003834": {
+      "slots": [19, 20],
+      "has_pw": true,
+      "pages": [
+        [
+          "A giant octopus lurks by",
+          "the waterfall. Watch out",
+          "for what's in its head!"
+        ]
+      ]
+    },
+    "0x0038B8": {
+      "slots": [21],
+      "has_pw": true,
+      "pages": [
+        [
+          "Next lies the river depths!",
+          "Where currents reverse sits",
+          "the Grave of Ten Thousand!"
+        ]
+      ]
+    },
+    "0x003954": {
+      "slots": [22],
+      "has_pw": false,
+      "pages": [
+        [
+          "The rapids throw off your",
+          "spirit shots, Great Sage.",
+          "Switch weapons often!"
+        ]
+      ]
+    },
+    "0x0039B0": {
+      "slots": [23],
+      "has_pw": true,
+      "pages": [
+        [
+          "Demons forged this fake",
+          "paradise! Don't be fooled",
+          "by their illusions!"
+        ]
+      ]
+    },
+    "0x0039B0_no_pw": {
+      "slots": [24],
+      "has_pw": false,
+      "pages": [
+        [
+          "Demons forged this fake",
+          "paradise! Don't be fooled",
+          "by their illusions!"
+        ]
+      ]
+    },
+    "0x003A50": {
+      "slots": [25],
+      "has_pw": true,
+      "pages": [
+        [
+          "Ride the three incense",
+          "sticks ahead! Move up and",
+          "down to dodge obstacles!"
+        ]
+      ]
+    },
+    "0x003AE0": {
+      "slots": [26],
+      "has_pw": true,
+      "pages": [
+        [
+          "The final Buddha's Palms",
+          "cannot be destroyed. You'll",
+          "have to dodge them deftly!"
+        ]
+      ]
+    },
+    "0x003B78": {
+      "slots": [27],
+      "has_pw": false,
+      "pages": [
+        [
+          "As for the final Demon",
+          "King, I know nothing at",
+          "all! Please be careful!!"
+        ]
+      ]
+    }
+  },
+  "graphics": {
+    "title_logo": ["JOURNEY", "TO THE", "LAUGH"],
+    "title_menu": ["START GAME", "PASSWORD", "OPTIONS"],
+    "password_plaque": "PASSWORD",
+    "gift_box": ["SALTED", "CRACKERS"],
+    "game_over": "GAME OVER",
+    "ending": {
+      "end1": ["Wukong, your attitude on your", "first trip West was arrogant!"],
+      "end2": ["You hurled insults at us!"],
+      "end3": ["And to us... to us... it was..."],
+      "end4": ["W A Y   T O O   G O O D !!"],
+      "end5": ["Ahem! So I decided to make", "you endure more trials!"],
+      "end6": ["To soothe my own..."],
+      "end7": ["Cough! Cough! To cure", "your unruly nature!"],
+      "end8": ["Your merit is now complete!", "I dub you Fighting Buddha!!"],
+      "end9": ["Follow me to Spirit Mountain", "for your title! Amitabha!"]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# never commit ROMs or anything built from them
+*.bin
+__pycache__/
+.DS_Store

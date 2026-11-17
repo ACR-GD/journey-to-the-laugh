@@ -1,0 +1,51 @@
+Journey to the Laugh (Super A'Can) — English Localization Build Report
+==========================================================================
+Source ROM : Journey to the Laugh (Taiwan).bin
+  Size     : 2097152 bytes
+  SHA-1    : fc82fc3a7d55571494cd62d8807160e22cf437bc
+  SHA-256  : a4964b702214f70e199bb07bbd2777eb08875206fa27396989f2a79cb48c5087
+Built ROM  : Journey to the Laugh (EN).bin
+  Size     : 2097152 bytes
+  SHA-1    : bdac36924150aedfe38046eea891d7171f011727
+  SHA-256  : bf26831e385ab6fb764a6b5d91ffc4b1e1c9cebec17e6fe311df30bb8997ee85
+IPS Patch  : Journey to the Laugh (EN).ips (81157 bytes, 42 records)
+
+Verification Checks:
+  ips_roundtrip       : PASS
+  text0_pal           : INTACT
+  capstone_engine     : PASS
+  d222_redecode_all   : PASS (27 streams)
+
+Text Engine & Script Pool:
+  M68K Engine (0x002902..0x002B54): 576 / 594 bytes
+  8x16 ASCII Font (0x0A6686..0x0A6C86): 1536 bytes
+  Intro Scripts (0x002BE4..0x002D48): used 258 B, 98 B free
+  Stage Scripts (0x002FA0..0x003BF8): used 2282 B, 878 B free
+
+Localized Graphics & Palettes:
+  title_menu      :  67 tiles (DMA 0x042F) -> tiles@0x00D1E8 (980B)
+  title_logo      : 541 tiles -> tiles@0x0B54CC (4753B), map@0x0B51A8 (674B)
+  password_plaque : 167 tiles -> tiles@0x05560E (1456B), map@0x02AAA2 (378B)
+  gift_box        : 245 tiles -> tiles@0x0AD47E (3094B), map@0x0AD31C (322B)
+  game_over       :  56 tiles -> tiles@0x0FBCFA (497B), map@0x0FBF00 (165B)
+  end1            : 233 tiles -> tiles@0x0EF7CE (2617B), map@0x0F0210 (531B)
+  end2            : 350 tiles -> tiles@0x0F042C (4506B), map@0x0F15D0 (642B)
+  end3            : 525 tiles -> tiles@0x0F85A8 (6448B), map@0x0F9EF2 (684B)
+  end4            : 504 tiles -> tiles@0x0FA1BA (6144B), map@0x0FB9FA (717B)
+  end5            : 469 tiles -> tiles@0x0A6C86 (5914B), map@0x0F2F72 (748B)
+  end6            : 429 tiles -> tiles@0x0F327A (5577B), map@0x0F486E (723B)
+  end7            : 475 tiles -> tiles@0x0F4B5E (5724B), map@0x0F61F4 (775B)
+  end8            : 236 tiles -> tiles@0x0F794A (2555B), map@0x0F8398 (518B)
+  end9            : 381 tiles -> tiles@0x1FC020 (4514B), map@0x0A60F2 (707B)
+
+SpaceAllocator Regions Summary:
+  0x0A60F2..0x0A6666: used 707 / 1396 B (689 B free)
+  0x0A6C86..0x0A9226: used 5914 / 9632 B (3718 B free)
+  0x1FC020..0x200000: used 4514 / 16352 B (11838 B free)
+  0x0F186C..0x0F2F71: used 0 / 5893 B (5893 B free)
+  0x0F6522..0x0F768F: used 0 / 4461 B (4461 B free)
+  0x0F7690..0x0F794A: used 0 / 698 B (698 B free)
+  Relocations:
+    end5Tiles           : 0x0A6C86..0x0A83A0 (5914 B)
+    end9Tiles           : 0x1FC020..0x1FD1C2 (4514 B)
+    end9Map             : 0x0A60F2..0x0A63B5 (707 B)
