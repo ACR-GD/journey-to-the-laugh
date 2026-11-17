@@ -6,6 +6,14 @@ Volunteer / preservation English translation project for **Journey to the Laugh 
 
 ---
 
+## Screenshots
+
+<p>
+<img src="screenshots/1.png" width="400" alt="Intro scene: Salted Crackers">
+<img src="screenshots/2.png" width="400" alt="Title screen">
+<img src="screenshots/3.png" width="400" alt="Bamboo forest stage">
+</p>
+
 ## How to Play
 
 Apply `build/Journey to the Laugh (EN).ips` to `Journey to the Laugh (Taiwan).bin` (2,097,152 bytes,
